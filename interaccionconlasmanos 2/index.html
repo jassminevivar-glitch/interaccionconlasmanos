@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mariposa de Manos</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.0/addons/p5.sound.min.js"></script>
+  <link rel="icon" href="data:;base64,=">
+  <style>
+    body { margin: 0; background: #111; color: #eee; font-family: system-ui, -apple-system, sans-serif;
+           display: flex; flex-direction: column; align-items: center; min-height: 100vh; }
+    h1 { margin-top: 20px; font-weight: 600; }
+    .instructions { max-width: 600px; text-align: center; margin: 10px 20px; line-height: 1.6; color: #ccc; }
+    canvas { display: block; margin-top: 10px; box-shadow: 0 0 30px rgba(0,0,0,0.6); border-radius: 8px; background: #000; }
+    .status { margin-top: 10px; font-size: 14px; color: #888; }
+  </style>
+</head>
+<body>
+  <h1>Mariposa de Manos</h1>
+  <div class="instructions">
+    <p><strong>Abre la mano</strong> frente a la cámara (o mueve el mouse si la cámara no funciona) para que aparezca la mariposa brillante.</p>
+    <p><strong>Mueve la mano/mouse</strong> para que la mariposa aletee y te siga.</p>
+    <p><strong>Desplázala hacia un lado</strong> para llover flores naranjas y amarillas con piano (10 s).</p>
+    <p><strong>Cierra la mano / deja de mover</strong> para volver al inicio.</p>
+  </div>
+  <script src="sketch.js"></script>
+</body>
+</html>
